@@ -11,8 +11,8 @@
 -  Before connecting the mobile device, you must enable "USB debugging" from the developer option. Go to settings->Tap on "About Phone"->Tap three times on "Build Number"->Then go to System->Tap on "Developer Options"->Enable "USB debugging". Now connect your mobile device with your PC via USB. Now allow USB debugging from your mobile phone. Open the CMD with administrator privileges and type "adb devices". You will get the UUID number if the device is connected properly to the PC and allows USB 
 debugging from the phone.
 -  Run AVD without Android Studio (open the CMD with administrator privileges)
-   1. cd C:\Users\{User Profile Name}\AppData\Local\Android\Sdk\tools\bin  -> avdmanager list avd
-   2. cd C:\Users\{User Profile Name}\AppData\Local\Android\Sdk\emulator   -> emulator -avd {Virtual Devices Name}
+   1. cd C:\Users\\{User Profile Name}\AppData\Local\Android\Sdk\tools\bin  -> avdmanager list avd
+   2. cd C:\Users\\{User Profile Name}\AppData\Local\Android\Sdk\emulator   -> emulator -avd {Virtual Devices Name}
 
 -  Appium (https://appium.io/downloads.html) be installed. Run the Appium Server GUI. Click on the appium inspector session. Now add the desired capabilities from the below JSON representation and start the session.
   
