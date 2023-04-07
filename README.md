@@ -15,7 +15,15 @@ debugging from the phone.
    2. cd C:\Users\\{User Profile Name}\AppData\Local\Android\Sdk\emulator   -> emulator -avd {Virtual Devices Name}
 
 -  Appium (https://appium.io/downloads.html) be installed. Run the Appium Server GUI. Click on the appium inspector session. Now add the desired capabilities from the below JSON representation and start the session.
-  
+
+```sh  
+{
+  "platformName": "Android",
+  "deviceName": "Android Emulator",
+  "app": "apk_location_path"
+}
+```
+
 ```sh  
 {
   "deviceName": "Pixel_4",
