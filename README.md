@@ -17,6 +17,11 @@ debugging from the phone.
 -  Appium (https://appium.io/downloads.html) be installed. Run the Appium Server GUI. Click on the appium inspector session. Now add the desired capabilities from the below JSON representation and start the session.
 
 ## Install APK
+```sh  
+Command Prompt: adb kill-server
+Command Prompt: adb start-server
+Go To The Directory -> Command Prompt: adb install apk_fileName
+```
 
 ```sh  
 {
