@@ -20,7 +20,7 @@ debugging from the phone.
 ```sh  
 Command Prompt: adb kill-server
 Command Prompt: adb start-server
-Go To The Directory -> Command Prompt: adb install apk_fileName
+Go To The APK Directory -> Command Prompt: adb install apk_fileName
 ```
 
 ```sh  
